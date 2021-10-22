@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <title>First Class Interior</title>
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS --> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <!-- Style -->
+
+   <style>
+
+    div.gallery {
+      border: 1px solid #ccc;
+      align-items: center;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+    
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+       </style>
+    
+      <!-- Style End -->
+
+  </head>
+  <body>
+
+    <!-- Header -->
+
+    <header>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="Images/logo.jpg" alt="First Class Interior" width="100" height="100">
+      
+        </div>
+        <div class="col-md-6">
+          <h1>First Class Interior</h1>
+        </div>
+      </div>   
+      
+      <!-- Navbar -->
+
+      <nav class="navbar navbar-expand-sm bg-success">
+        <div class="container-fluid">
+          <div class="navbar-header">
+
+            </div>
+          <ul class="navbar-nav">
+
+            <li class="nav-item active"><a class="nav-link" href="home.html">Home</a></li>
+            <li><a class="nav-link" href="contact.html">Contact us</a></li>
+            <li><a class="nav-link" href="about.html">About us</a></li>
+            <li><a class="nav-link" href="shop.html">Shop</a></li>
+          </ul>
+        </div>
+      </nav>
+        
+      </header>
+
+      <!-- Header End -->
+
+      <h1 style="text-align:center">About Us</h1>
+      
+      <br>
+      <br>
+      
+      <!-- CEO and MD -->
+
+      <div class="card mb-3" style="max-width: 1340px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img id="myimage" src="images/CEO.jpg" class="card-img" alt="">
+          </div>
+
+          <div class="col-md-8">
+            <div class="card-body">
+
+              <h5 class="Management">Management</h5>
+
+              <p class="card-text"><small class="text-muted">John & Linda</small></p>
+
+              <p class="font-weight-bold" id="myintroduction">John Musk is our C.E.O and a highly 
+                motivated Site Manager with extensive experience of over 30 years in the
+                the commercial building industry, John is very experienced in the management of health and 
+                safety and is effective in communication and interpersonal skills, with leadership skills 
+                to inspire and build workplace cultures John will deliver your projects on time and on budget.</p>       
+            </div>
+          </div>
+        </div>
+      </div>         
+ 
+<!-- Turn Click -->
+
+<button onclick="document.getElementById('myimage').src='images/MD.jpg'">Linda's Img</button>
+
+<button onclick="document.getElementById('myimage').src='images/CEO.jpg'">John's Img</button>
+
+<!-- Turn Click End-->
+
+<script>
+
+function myFunction() {
+  document.getElementById("myimage").style.fontSize = "xx-large";
+}
+</script>
+
+<button onclick="document.getElementById ('myintroduction').textContent='Linda is the M.D and the glue in the Captivate Interiors team, from ensuring there are enough drinks for Friday afternoon to processing all debtors and creditors transactions, payroll, and general admin and personal assistant for the team. Linda is the “get it done” person and ensures our clients are getting the best from all of the Captivate team.'">Linda's Decription</button>
+
+<script>
+
+function myFunction() {
+  document.getElementById("myimage").style.fontSize = "xx-large";
+}
+
+// Turn Click 
+
+function myFunction() {
+  document.getElementById("myimage").style.fontSize = "xx-large";
+}
+</script>
+
+<button onclick="document.getElementById ('myintroduction').textContent='John Musk is our C.E.O and a highly motivated Site Manager with extensive experience of over 30 years in the the commercial building industry, John is very experienced in the management of health and safety and is effective in communication and interpersonal skills, with leadership skills to inspire and build workplace cultures John will deliver your projects on time and on budget.'">John's Decription</button>
+
+<script>
+
+function myFunction() {
+  document.getElementById("myimage").style.fontSize = "xx-large";
+}
+
+</script>
+
+<br>
+<br>
+
+<!-- Staff 1 -->
+
+<!-- myDIV -->
+
+<button onclick="myFunction()">Rhea</button>
+<div id="myDIV">
+
+  <script>
+
+function myFunction() {
+var x = document.getElementById("myDIV");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+
+ </script>
+
+ <!-- myDIV END -->
+
+<div class="card mb-3" style="max-width: 700px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      
+      <img src="images/staff 1.jpg" class="card-img" alt="...">
+    </div>
+
+    <div class="col-md-8">
+      <div class="card-body">
+
+        <h5 class="staff">Rhea</h5>
+
+        <p class="card-text"><small class="text-muted">3D Designer</small></p>
+
+        <p class="card-text">Meet the newest member of our team, Rhea, also known as our director's 
+          second half. Rhea is in charge of all things marketing. She can help bring awareness to your 
+          business once completed, run competitions with influencers to help boost awareness and help with 
+          creating a launch for your new cafe, bar or restaurant. Always the life of the party, she has 
+          skills with soft furnishings and a great eye for art work too.</p> </div>    
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br> 
+
+<!-- Staff 2 -->
+
+<!-- myDIV -->
+
+<button onclick="myFunction()">Lisa</button>
+<div id="myDIV">
+
+  <script>
+
+function myFunction() {
+var x = document.getElementById("myDIV");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+
+ </script>
+
+ <!-- myDIV END -->
+
+<div class="card mb-3" style="max-width: 700px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+
+      <img src="images/staff 2.jpg" class="card-img" alt="...">
+    </div>
+
+    <div class="col-md-8">
+      <div class="card-body">
+
+        <h5 class="staff">Lisa</h5>
+
+        <p class="card-text"><small class="text-muted">Interior Planning</small></p>
+
+        <p class="card-text">A multi talented designer, Lisa not only brings a highly skilled 
+          design eye and technical skillset to Captivate, her long history within the hospitality industry 
+          makes him the perfect designer for our hospitality obsessed studio. A vital and loved member of 
+          the Captivate team, outside of designing incredible restaurants, cafes & bars, Lisa has built a name 
+          for herself as a renowned tattoo artist and drummer.</p> </div>     
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<!-- Staff 3 -->
+
+<!-- myDIV -->
+
+<button onclick="myFunction()">Nikki</button>
+<div id="myDIV">
+
+  <script>
+
+function myFunction() {
+var x = document.getElementById("myDIV");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+
+ </script>
+
+ <!-- myDIV END -->
+
+<div class="card mb-3" style="max-width: 700px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+
+      <img src="Images/staff 3.jpg" class="card-img" alt="...">
+    </div>
+
+    <div class="col-md-8">
+      <div class="card-body">
+
+        <h5 class="staff">Nikki</h5>
+
+        <p class="card-text"><small class="text-muted">3D Designer</small></p>
+
+        <p class="card-text">Nikki is an accomplished 3D designer and brand guru. Having worked in 
+          studios in Wellington and London and for the United Nations in NYC she brings a wealth of international 
+          experience to her role as design director. She's passionate about seeing her home town (Hamilton) 
+          thrive and brings strategic positioning, creative direction and an expert eye for colour, 
+          layout and all things visual to our projects.</p> </div>     
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<!-- Staff 4 -->
+
+<!-- myDIV -->
+
+<button onclick="myFunction()">Gary</button>
+<div id="myDIV">
+
+  <script>
+
+function myFunction() {
+var x = document.getElementById("myDIV");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+
+ </script>
+
+ <!-- myDIV END -->
+
+<div class="card mb-3" style="max-width: 700px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+
+      <img src="Images/staff 4.jpg" class="card-img" alt="...">
+    </div>
+
+    <div class="col-md-8">
+      <div class="card-body">
+
+        <h5 class="staff">Gary</h5>
+
+        <p class="card-text"><small class="text-muted">Director Designer</small></p>
+
+        <p class="card-text">Gary is an industrial designer by training and has spent the last decade working across 
+          design businesses in NZ, the UK and in NYC. He's designed connected sports equipment for Gatorade, 
+          aircraft interiors for Emirates and spatial designs for numerous work-spaces and restaurants.</p> </div>      
+      </div>
+    </div>
+  </div>
+</div> 
+
+<br>
+<br>
+
+<!-- Staff 5 -->
+
+<!-- myDIV -->
+
+<button onclick="myFunction()">Rachel</button>
+<div id="myDIV">
+
+  <script>
+
+function myFunction() {
+var x = document.getElementById("myDIV");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+
+ </script>
+
+ <!-- myDIV END -->
+
+<div class="card mb-3" style="max-width: 700px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+
+      <img src="Images/staff 5.jpg" class="card-img" alt="...">
+    </div>
+
+    <div class="col-md-8">
+      <div class="card-body">
+
+        <h5 class="staff">Rachel</h5>
+
+        <p class="card-text"><small class="text-muted">Graphic Designer</small></p>
+
+        <p class="card-text">Rachel brings a double degree in both visual communications and photography to her design work. 
+          After studying in both Wellington and the Waikato Rachel worked in Vancouver for a stint and now helps us craft beautiful and 
+          memorable identities for our clients. Rachel works effortlessly with typography and colour and her skills as a photographer 
+          bring unique compositions to all her work.</p> </div>    
+      </div>
+    </div>
+  </div>
+</div>  
+
+<br>
+<br> 
+
+<!-- Footer -->
+
+<!-- Script and button to hide Staff - "myDIV" -->
+
+<br>
+<br>
+
+</div><footer class="navbar navbar-expand-lg bg-info justify-content-center">
+  
+<ul class="navbar-nav">  
+  <li class="nav-item"> 
+ 
+   <a href="https://www.facebook.com/" target="_blank">
+   <img src="images/facebook.png" alt="Facebook" style="width: 30px; height: 30px;">
+   </a>       
+  </li>         
+
+<li class="nav-item">
+  
+  <a href="https://www.instagram.com/" target="_blank">
+    <img src="images/instagram.png" alt="Ins"style="width: 30px; height: 30px;">
+    </a>   
+   </li>
+
+  <li class="nav-item">
+
+ <a href="https://www.linkedin.com/" target="_blank">
+ <img src="images/linkedin.png" alt="Linkedin" style="width: 30px; height: 30px;">
+</a>   
+</li>
+
+<li class="nav-item"> 
+
+ <a href="https://www.twitter.com/" target="_blank">
+  <img src="images/twitter.png" alt="Twitter" style="width: 30px; height: 30px;">
+  </a>        
+  </li>
+</ul>     
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
